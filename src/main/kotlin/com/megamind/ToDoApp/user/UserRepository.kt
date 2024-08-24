@@ -1,8 +1,15 @@
-package com.megamind.ToDoApp.task
+package com.megamind.ToDoApp.user
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
+import java.util.Optional
+
 
 @Repository
-interface TaskRepository : JpaRepository<Task, Long> {
+interface  UserRepository : JpaRepository<User,Long> {
+
+
+
+
+
 }
